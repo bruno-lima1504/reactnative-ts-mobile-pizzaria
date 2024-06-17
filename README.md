@@ -1,9 +1,8 @@
 # Aplicativo de atendimento de pizzaria - React Native
 <img src="./assets/apppizzaria.gif" alt="Home Screen">
 
-<img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
-<img src="https://img.shields.io/static/v1?label=next.js&message=Framework&color=black&style=for-the-badge&logo=next.js"/>
-<img src="https://img.shields.io/static/v1?label=scss&message=CSS&color=cc6699&style=for-the-badge&logo=sass"/>
+![React Native Badge](https://img.shields.io/static/v1?label=react%20native&message=framework&color=blue&style=for-the-badge&logo=REACT)
+![Expo Badge](https://img.shields.io/static/v1?label=expo&message=framework&color=blue&style=for-the-badge&logo=expo)
 
 ### Tópicos 
 
