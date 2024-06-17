@@ -67,19 +67,16 @@ export function AuthProvider({ children }: AuthProviderProps){
     },[])
 
     async function signIn({email, password}: SignInProps) {
-       setLoadingAuth(true);
-
+       setLoadingAuth(true);    
        try{
             const response = await api.post('/session', {
                 email,
                 password
-            })
-            const {id, name, token} = response.data;
-
+            })            
+            const {id, name, token} = response.data;            
             const data = {
                 ...response.data
             };
-
            await AsyncStorage.setItem('@pizzaria', JSON.stringify(data));
 
            // com isso agora passamos o nosso token para verificação em todas as chamadas da api
